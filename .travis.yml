@@ -1,0 +1,14 @@
+services:
+  - docker
+
+        
+script:
+  - make build
+
+  - make test
+ #envoyer l'image à Dockerfile.
+deploy:
+  - provider: script
+    script: make deliver
+    on:
+      branch: master    
