@@ -245,6 +245,7 @@ def page_liste_groupes():
 def page_liste_amis():
     return render_template('Amis.html')
 
+
 @app.route('/page_notifications')
 def page_notifications():
     return render_template('Notifications.html')

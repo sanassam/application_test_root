@@ -11,4 +11,4 @@ deploy:
   - provider: script
     script: make deliver
     on:
-      branch: master    
+      branch: debloy    
