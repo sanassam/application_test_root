@@ -1,6 +1,6 @@
 USERNAME:=sanasamy
 IMAGE:=application-foot
-TAG:=20190829
+TAG:=20190927
 
 
 all:
